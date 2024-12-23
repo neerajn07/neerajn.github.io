@@ -1,0 +1,74 @@
+/* Custom Styles for Background and Design */
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f7f7f7, #eaeaea); /* Light gradient background */
+    color: #333;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Profile Picture Styling */
+.sidebar .author__avatar {
+    border: 4px solid #0077b6; /* Blue border */
+    border-radius: 50%;
+}
+
+/* Sidebar Links */
+.sidebar .author__urls a {
+    color: #0077b6; /* Blue links */
+    text-decoration: none;
+}
+
+.sidebar .author__urls a:hover {
+    color: #023e8a; /* Darker blue on hover */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    color: #0077b6; /* Blue headings */
+}
+
+/* Footer Styling */
+.page__footer {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.page__footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Links */
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #023e8a;
+}
+
+/* Buttons */
+button {
+    background: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
